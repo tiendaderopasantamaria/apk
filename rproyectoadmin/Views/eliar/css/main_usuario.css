@@ -1,0 +1,156 @@
+
+@font-face {
+  font-family: estilo;
+  src: url(../fonts/estilo3.ttf);
+}
+*{margin:0px; padding:0px; border:0px} /* Formatea estilos (para diferentes páginas web) */
+
+.fondo
+{
+	background: url(../img/fondo1.jpg) ;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+body,html
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;	
+}
+
+#cuerpo
+{
+	min-height: 100%;
+	position: relative;
+}
+
+#contenedor
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.empresa
+{
+	background: #4f9dbd;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+#ingresar
+{
+	text-align: center;
+	padding: 15px 0 45px 0;
+}
+.formulario
+{
+	background: #fff;
+	border-radius: 5px;
+	width: 240px;
+	margin: 0 auto;
+	border: solid 1px #e4e7e9;
+	padding: 15px;
+	
+}
+
+.formulario h2
+{
+	color: #7fc4e0;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.formulario .grupo
+{
+	margin: 8px 0 0px 0;
+	text-align: left;
+
+}
+
+.formulario .grupo input
+{
+	padding: 6px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: solid 1px #c6c8c8;
+	width: 200px;
+
+}
+
+.formulario .grupo #enviar
+{
+	padding: 10px;
+	background: #e7edef;
+	border-radius: 3px;
+	color: #898989;
+	border:solid 0.1px #d0d9dd;
+	text-align: left;
+	width: 60px;
+}
+
+.registro
+{
+	padding: 9px;
+	background: #e7edef;
+	border-radius: 3px;
+	color: #898989;
+	border:solid 0.1px #d0d9dd;
+	text-align: left;
+	cursor: pointer;
+}
+
+.formulario .grupo label
+{
+	font-size: 15px;
+	padding: 5px;
+	color: #979797;
+}
+
+.foter
+{
+	background: #a7adaf;
+	color: #fff;
+	padding:  5px 0 5px 0;
+	font-size: 13px;
+	letter-spacing: 3px; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.foter span
+{
+	color: #737373;
+}
+
+#error
+{
+	text-align: center;
+	padding: 10px;
+	background: #e7edef;
+	border-radius: 2px;
+	color: #898989;
+	border:solid 0.1px #d0d9dd;
+	text-align: left;
+	
+}
+
+.flota
+{
+	position: absolute;
+	padding: 5px;
+	background: rgba(213, 64, 64, 0.8);
+	color: #fff;
+	border-radius: 6px;
+	font-size: 12px;
+	margin: -27px 0 0 190px;
+}

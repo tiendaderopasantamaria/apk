@@ -1,0 +1,120 @@
+.body
+{
+	position: relative;
+}
+
+.contenedor-modal
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	pointer-events:none;
+	z-index: 4;
+	text-align: center;
+	background: rgba( 10, 10, 10, 0.9) url(../img/fondo1.jpg);
+	overflow: auto;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+}
+
+.scroll-oculto
+{
+	overflow: hidden;
+}
+
+.mostrar-modal
+{
+	opacity: 1;
+	pointer-events:all;
+	position: fixed;
+}
+
+.cuerpo-modal
+{
+position: absolute;
+top: 00px;
+width: 100%;
+
+color: black;
+font-size: 15px;
+text-align: center;
+font-family: arial;
+
+}
+
+.close-modal
+{
+	cursor: pointer;
+	font-size: 11px;
+	
+	display: inline-block;
+	color: #666;
+	font-family: arial;
+	border-radius:100%;
+	padding: 11px 13px 11px 13px;
+	width: 10px;
+	box-shadow: rgba(200,200,200,0.9) 1px 1px 6px;
+	
+}
+
+.close-tiporopa
+{
+	cursor: pointer;
+	font-size: 11px;
+	
+	display: inline-block;
+	color: #666;
+	font-family: arial;
+	border-radius:100%;
+	padding: 11px 13px 11px 13px;
+	width: 10px;
+	box-shadow: rgba(200,200,200,0.9) 1px 1px 6px;
+	
+}
+#ropalike
+{
+
+}
+#ropalike .icon-heart
+{
+	color: rgba(248, 117, 118, 0.9);
+	font-size: 35px;
+	cursor: pointer;
+	z-index: -6;
+
+}
+.valor
+{
+	color: #fff;
+	font-family: arial;
+	font-size: 10px;
+	z-index: -3;
+	margin: -23px 0 0 0px;
+}
+
+.tituloropa
+{
+	font-family: arial;
+	color: #877;
+}
+
+
+.ims img
+{
+	width: 100px;
+
+}
+
+.gia .info
+{
+	font-size: 12px;
+	font-family: arial;
+	color: #f3f3f3;
+	background: #888;
+	border-radius: 8px;
+	border: solid 5px #999;
+	padding: 10px;
+}
