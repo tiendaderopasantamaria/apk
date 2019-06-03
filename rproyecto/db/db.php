@@ -11,10 +11,11 @@ function conectar_bd()
 {
 	global $conexio;
 	//Definir datos de conexion con el servidor MySQL
-	$elUsr = "root";
-	$elPw  = "";
-	$elServer ="localhost";
-	$laBd = "ropita";
+	$laBd = "bmkubcaacvfyfmlhr2t0";
+	$elUsr = "uvpy41ydy33hsxmt";
+	$elPw  = "s3R28mgWgmR9KlcdUaMS";
+	$elServer ="bmkubcaacvfyfmlhr2t0-mysql.services.clever-cloud.com";
+	
 	
 	//Conectar
 	$conexio = mysqli_connect($elServer, $elUsr , $elPw) or die (mysqli_error());

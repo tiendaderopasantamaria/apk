@@ -7,3 +7,13 @@
 	$db_name = "u397140890_ropa";
 	$db_user = "u397140890_cco30";
 	$db_pass = "123456";
+
+	$laBd = "ropita";
+	$elUsr = "root";
+	$elPw  = "";
+	$elServer ="localhost";
+
+	$laBd = "ropitasantamaria";
+	$elUsr = "rootropita";
+	$elPw  = "12345678";
+	$elServer ="3306";
